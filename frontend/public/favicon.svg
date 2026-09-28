@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="rubyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#rubyGrad)" />
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+  <!-- Rooster stylized crest & silhouette -->
+  <path d="M22 28C22 23 26 19 32 19C35 19 38 20 40 22C42 20 44 21 44 24C44 24.5 43.8 25 43.5 25.5C45.5 26 47 27.5 47 30C47 32 45.5 33.5 43.5 34C43.8 35 44 36 44 37C44 43 38 48 30 48C26 48 23 46 21 43L26 40C27.5 42 29.5 43 32 43C36 43 39 40 39 36.5C39 34.5 37.8 32.8 36 32L34 31L35.5 29.5C36.5 28.5 37 27 37 25.5C37 23.5 35 22 33 22C30 22 27 24 26 27L22 28Z" fill="url(#goldGrad)" />
+  <!-- Eye -->
+  <circle cx="34" cy="24.5" r="1.5" fill="#111827" />
+  <!-- Beak -->
+  <path d="M43 27L48 29L43 31Z" fill="#FBBF24" />
+</svg>
